@@ -1,0 +1,88 @@
+
+Model: mobilenet_v3_large_head_only
+Test accuracy: 0.8231
+              precision    recall  f1-score   support
+
+   aeroplane       0.95      0.93      0.94        43
+     bicycle       0.87      0.87      0.87        38
+        bird       0.94      0.87      0.90        54
+        boat       0.93      0.84      0.88        44
+      bottle       0.86      0.90      0.88        62
+         bus       0.96      0.93      0.95        46
+         car       0.81      0.91      0.86        81
+         cat       0.88      0.91      0.90        57
+       chair       0.74      0.75      0.75       109
+         cow       0.67      0.86      0.75        56
+ diningtable       0.69      0.59      0.63        34
+         dog       0.87      0.78      0.82        60
+       horse       0.83      0.73      0.78        41
+   motorbike       0.89      0.83      0.86        41
+      person       0.58      0.68      0.63        53
+ pottedplant       0.85      0.84      0.85        62
+       sheep       0.81      0.75      0.78        57
+        sofa       0.71      0.64      0.67        42
+       train       0.97      0.89      0.93        38
+   tvmonitor       0.92      0.90      0.91        39
+
+    accuracy                           0.82      1057
+   macro avg       0.84      0.82      0.83      1057
+weighted avg       0.83      0.82      0.82      1057
+
+
+Model: efficientnet_b0_head_only
+Test accuracy: 0.8098
+              precision    recall  f1-score   support
+
+   aeroplane       0.95      0.95      0.95        43
+     bicycle       0.77      0.89      0.83        38
+        bird       0.90      0.85      0.88        54
+        boat       0.93      0.84      0.88        44
+      bottle       0.81      0.84      0.83        62
+         bus       0.98      0.89      0.93        46
+         car       0.72      0.88      0.79        81
+         cat       0.88      0.89      0.89        57
+       chair       0.77      0.72      0.75       109
+         cow       0.75      0.86      0.80        56
+ diningtable       0.68      0.56      0.61        34
+         dog       0.78      0.88      0.83        60
+       horse       0.84      0.78      0.81        41
+   motorbike       0.86      0.73      0.79        41
+      person       0.51      0.49      0.50        53
+ pottedplant       0.79      0.89      0.83        62
+       sheep       0.80      0.77      0.79        57
+        sofa       0.82      0.64      0.72        42
+       train       0.97      0.95      0.96        38
+   tvmonitor       0.94      0.87      0.91        39
+
+    accuracy                           0.81      1057
+   macro avg       0.82      0.81      0.81      1057
+weighted avg       0.81      0.81      0.81      1057
+
+Model: shufflenet_v2_x1_0_head_only
+Test accuracy: 0.7039
+              precision    recall  f1-score   support
+
+   aeroplane       1.00      0.88      0.94        43
+     bicycle       0.83      0.76      0.79        38
+        bird       0.82      0.74      0.78        54
+        boat       1.00      0.64      0.78        44
+      bottle       0.69      0.90      0.78        62
+         bus       0.80      0.78      0.79        46
+         car       0.70      0.88      0.78        81
+         cat       0.72      0.82      0.77        57
+       chair       0.47      0.84      0.61       109
+         cow       0.72      0.68      0.70        56
+ diningtable       1.00      0.18      0.30        34
+         dog       0.72      0.63      0.67        60
+       horse       0.76      0.39      0.52        41
+   motorbike       0.69      0.71      0.70        41
+      person       0.59      0.49      0.54        53
+ pottedplant       0.66      0.74      0.70        62
+       sheep       0.70      0.84      0.76        57
+        sofa       0.83      0.12      0.21        42
+       train       0.96      0.71      0.82        38
+   tvmonitor       1.00      0.72      0.84        39
+
+    accuracy                           0.70      1057
+   macro avg       0.78      0.67      0.69      1057
+weighted avg       0.75      0.70      0.69      1057

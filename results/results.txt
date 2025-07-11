@@ -1,0 +1,201 @@
+Model: resnet50
+Test accuracy: 0.6225
+              precision    recall  f1-score   support
+   aeroplane       0.79      0.79      0.79        43
+     bicycle       0.47      0.82      0.60        38
+        bird       0.66      0.61      0.63        54
+        boat       0.36      0.82      0.50        44
+      bottle       0.59      0.89      0.71        62
+         bus       0.81      0.76      0.79        46
+         car       0.84      0.85      0.85        81
+         cat       0.64      0.44      0.52        57
+       chair       0.50      0.73      0.60       109
+         cow       0.64      0.41      0.50        56
+ diningtable       1.00      0.12      0.21        34
+         dog       0.54      0.42      0.47        60
+       horse       0.56      0.49      0.52        41
+   motorbike       0.82      0.44      0.57        41
+      person       0.65      0.64      0.65        53
+ pottedplant       0.85      0.53      0.65        62
+       sheep       0.60      0.65      0.62        57
+        sofa       0.88      0.17      0.28        42
+       train       0.83      0.66      0.74        38
+   tvmonitor       0.74      0.87      0.80        39
+
+    accuracy                           0.62      1057
+   macro avg       0.69      0.60      0.60      1057
+weighted avg       0.68      0.62      0.61      1057
+
+Model: mobilenet_v3_large
+Test accuracy: 0.7446
+              precision    recall  f1-score   support
+
+   aeroplane       0.81      0.79      0.80        43
+     bicycle       0.71      0.84      0.77        38
+        bird       0.77      0.74      0.75        54
+        boat       0.63      0.93      0.75        44
+      bottle       0.89      0.87      0.88        62
+         bus       0.80      0.98      0.88        46
+         car       0.73      0.93      0.82        81
+         cat       0.88      0.61      0.72        57
+       chair       0.71      0.71      0.71       109
+         cow       0.62      0.71      0.66        56
+ diningtable       0.83      0.44      0.58        34
+         dog       0.55      0.80      0.65        60
+       horse       0.74      0.68      0.71        41
+   motorbike       0.76      0.78      0.77        41
+      person       0.90      0.49      0.63        53
+ pottedplant       0.92      0.76      0.83        62
+       sheep       0.77      0.60      0.67        57
+        sofa       0.64      0.50      0.56        42
+       train       0.75      0.79      0.77        38
+   tvmonitor       0.87      0.85      0.86        39
+
+    accuracy                           0.74      1057
+   macro avg       0.76      0.74      0.74      1057
+weighted avg       0.76      0.74      0.74      1057
+
+Model: shufflenet_v2_x1_0
+Test accuracy: 0.7909
+              precision    recall  f1-score   support
+
+   aeroplane       0.97      0.77      0.86        43
+     bicycle       0.82      0.87      0.85        38
+        bird       0.78      0.74      0.76        54
+        boat       0.84      0.73      0.78        44
+      bottle       0.85      0.92      0.88        62
+         bus       0.93      0.91      0.92        46
+         car       0.83      0.96      0.89        81
+         cat       0.77      0.88      0.82        57
+       chair       0.70      0.72      0.71       109
+         cow       0.75      0.82      0.79        56
+ diningtable       0.80      0.47      0.59        34
+         dog       0.68      0.67      0.67        60
+       horse       0.74      0.49      0.59        41
+   motorbike       0.88      0.68      0.77        41
+      person       0.71      0.74      0.72        53
+ pottedplant       0.77      0.90      0.83        62
+       sheep       0.76      0.82      0.79        57
+        sofa       0.65      0.71      0.68        42
+       train       0.97      0.92      0.95        38
+   tvmonitor       0.90      0.90      0.90        39
+
+    accuracy                           0.79      1057
+   macro avg       0.81      0.78      0.79      1057
+weighted avg       0.79      0.79      0.79      1057
+
+Model: efficientnet_b0
+Test accuracy: 0.8146
+              precision    recall  f1-score   support
+
+   aeroplane       0.95      0.95      0.95        43
+     bicycle       0.73      0.95      0.83        38
+        bird       0.80      0.91      0.85        54
+        boat       0.91      0.89      0.90        44
+      bottle       0.80      0.90      0.85        62
+         bus       0.96      0.93      0.95        46
+         car       0.91      0.93      0.92        81
+         cat       0.77      0.88      0.82        57
+       chair       0.78      0.80      0.79       109
+         cow       0.83      0.61      0.70        56
+ diningtable       0.95      0.56      0.70        34
+         dog       0.73      0.63      0.68        60
+       horse       0.56      0.78      0.65        41
+   motorbike       0.96      0.61      0.75        41
+      person       0.75      0.75      0.75        53
+ pottedplant       0.89      0.82      0.86        62
+       sheep       0.78      0.86      0.82        57
+        sofa       0.64      0.60      0.62        42
+       train       0.92      0.95      0.94        38
+   tvmonitor       0.90      0.92      0.91        39
+
+    accuracy                           0.81      1057
+   macro avg       0.83      0.81      0.81      1057
+weighted avg       0.82      0.81      0.81      1057
+
+Model: squeezenet1_1
+Test accuracy: 0.3396
+              precision    recall  f1-score   support
+
+   aeroplane       0.45      0.42      0.43        43
+     bicycle       0.30      0.42      0.35        38
+        bird       0.34      0.22      0.27        54
+        boat       0.43      0.30      0.35        44
+      bottle       0.31      0.63      0.41        62
+         bus       0.46      0.67      0.54        46
+         car       0.38      0.57      0.46        81
+         cat       0.22      0.04      0.06        57
+       chair       0.36      0.37      0.36       109
+         cow       0.24      0.54      0.33        56
+ diningtable       1.00      0.06      0.11        34
+         dog       0.12      0.13      0.13        60
+       horse       0.17      0.02      0.04        41
+   motorbike       1.00      0.02      0.05        41
+      person       0.00      0.00      0.00        53
+ pottedplant       0.28      0.42      0.33        62
+       sheep       0.38      0.67      0.48        57
+        sofa       0.00      0.00      0.00        42
+       train       0.48      0.26      0.34        38
+   tvmonitor       0.50      0.67      0.57        39
+
+    accuracy                           0.34      1057
+   macro avg       0.37      0.32      0.28      1057
+weighted avg       0.35      0.34      0.29      1057
+
+Model: wide_resnet50_2
+Test accuracy: 0.3794
+              precision    recall  f1-score   support
+
+   aeroplane       0.54      0.60      0.57        43
+     bicycle       0.33      0.45      0.38        38
+        bird       0.25      0.44      0.32        54
+        boat       0.69      0.45      0.55        44
+      bottle       0.41      0.31      0.35        62
+         bus       0.78      0.30      0.44        46
+         car       0.43      0.44      0.44        81
+         cat       0.37      0.53      0.43        57
+       chair       0.47      0.34      0.39       109
+         cow       0.40      0.18      0.25        56
+ diningtable       0.29      0.12      0.17        34
+         dog       0.19      0.38      0.25        60
+       horse       0.25      0.02      0.04        41
+   motorbike       0.31      0.10      0.15        41
+      person       0.13      0.11      0.12        53
+ pottedplant       0.53      0.71      0.61        62
+       sheep       0.36      0.63      0.46        57
+        sofa       0.20      0.26      0.23        42
+       train       0.62      0.53      0.57        38
+   tvmonitor       0.61      0.49      0.54        39
+
+    accuracy                           0.38      1057
+   macro avg       0.41      0.37      0.36      1057
+weighted avg       0.41      0.38      0.37      1057
+
+Model: convnext_tiny
+Test accuracy: 0.7370
+              precision    recall  f1-score   support
+
+   aeroplane       0.92      0.81      0.86        43
+     bicycle       1.00      0.66      0.79        38
+        bird       0.84      0.48      0.61        54
+        boat       0.86      0.84      0.85        44
+      bottle       0.86      0.79      0.82        62
+         bus       0.87      0.85      0.86        46
+         car       0.95      0.89      0.92        81
+         cat       0.65      0.88      0.75        57
+       chair       0.53      0.90      0.66       109
+         cow       1.00      0.41      0.58        56
+ diningtable       1.00      0.21      0.34        34
+         dog       0.76      0.47      0.58        60
+       horse       0.75      0.66      0.70        41
+   motorbike       0.91      0.73      0.81        41
+      person       0.85      0.74      0.79        53
+ pottedplant       0.56      0.95      0.70        62
+       sheep       0.50      0.82      0.62        57
+        sofa       0.76      0.45      0.57        42
+       train       1.00      0.87      0.93        38
+   tvmonitor       0.92      0.92      0.92        39
+
+    accuracy                           0.74      1057
+   macro avg       0.82      0.72      0.73      1057
+weighted avg       0.80      0.74      0.73      1057
